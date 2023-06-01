@@ -215,6 +215,13 @@ var onetomany=async(req,res)=>{
     res.status(200).json(response)
 }
 
+let manytomany= async(req,res)=>{
+    let response={
+        data:"OK"
+    }
+    res.status(200).json(response)
+}
+
 module.exports={
     addUser,
     crudOperation,
