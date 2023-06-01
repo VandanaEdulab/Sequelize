@@ -21,6 +21,7 @@ app.get("/OneToOne",userController.oneToOne)
 app.get("/belongsto",userController.belongsTo)
 app.get("/OneToMany",userController.onetomany)
 app.get("/ManyToMany",userController.manytomany)
+app.get("/ManyToMany",userController.manytomany)
 
 
 app.listen(port, () => {
