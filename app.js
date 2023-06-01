@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
     res.send("Home Page")
 })
 
+app.get("/about", (req, res) => {
+    res.send("Home Page")
+})
+
 app.get("/add", userController.addUser)
 app.get("/crud",userController.crudOperation)
 app.get("/query",userController.QueryData)
