@@ -9,6 +9,10 @@ var addUser=async (req,resp)=>{
     let data=await Users.create({FirstName:'Akshay',LastName:'Pal', Gender:'male',Address:'Bhaynder',Email:'akshaySpalll@gamile.com'});
     console.log(data.dataValues)
 
+
+
+    
+
     // //For Update
     // data.FirstName='hajsdhds';
     // data.save()
