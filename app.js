@@ -10,12 +10,19 @@ app.get("/", (req, res) => {
     res.send("Home Page")
 })
 
+
 app.get("/About", (req, res) => {
     res.send("About Page")
 })
 
 app.get("/Contactus", (req, res) => {
     res.send("Contact Us")
+})
+
+
+
+app.get("/about", (req, res) => {
+    res.send("Home Page")
 })
 
 
