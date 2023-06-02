@@ -32,6 +32,7 @@ app.get("/OneToMany",userController.onetomany)
 app.get("/ManyToMany",userController.manytomany)
 app.get("/ManyToMany",userController.manytomany)
 
+app.get("/rawquery",userController.rawQuery)
 
 app.listen(port, () => {
     console.log(`app is Listening${port}`)
